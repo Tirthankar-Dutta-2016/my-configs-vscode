@@ -1,0 +1,17 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "shift+7 shift+8",
+    "command": "wakatime.apikey"
+  },
+  {
+    "key": "ctrl+alt+backspace",
+    "command": "markdown.extension.onBackspaceKey",
+    "when": "editorTextFocus && !editorReadonly && !suggestWidgetVisible && editorLangId == 'markdown' && vim.mode != 'CommandlineInProgress' && vim.mode != 'EasyMotionInputMode' && vim.mode != 'EasyMotionMode' && vim.mode != 'Normal' && vim.mode != 'Replace' && vim.mode != 'SearchInProgressMode' && vim.mode != 'SurroundInputMode' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
+  },
+  {
+    "key": "backspace",
+    "command": "-markdown.extension.onBackspaceKey",
+    "when": "editorTextFocus && !editorReadonly && !suggestWidgetVisible && editorLangId == 'markdown' && vim.mode != 'CommandlineInProgress' && vim.mode != 'EasyMotionInputMode' && vim.mode != 'EasyMotionMode' && vim.mode != 'Normal' && vim.mode != 'Replace' && vim.mode != 'SearchInProgressMode' && vim.mode != 'SurroundInputMode' && vim.mode != 'Visual' && vim.mode != 'VisualBlock' && vim.mode != 'VisualLine'"
+  }
+]
